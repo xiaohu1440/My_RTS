@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PlayerMovement : MonoBehaviour
 {
+    
     public float speed=0.05f;
     private Transform startPoint;
     private Vector2 endPoint;
@@ -30,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
         {
+            
             Debug.Log("MovePlayer");
             float x=Mathf.Round(transform.position.x- endPoint.x);
             float y=Mathf.Round(transform.position.y- endPoint.y);
