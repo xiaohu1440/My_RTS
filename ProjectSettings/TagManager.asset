@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Tower
+  - Fog
+  - Enemy
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -12,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Board
   - 
   - 
   - 
@@ -41,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Mid
+    uniqueID: 2926984857
     locked: 0
